@@ -7,6 +7,7 @@ Automatically scrolling logger window for Dear PyGui that meets the following re
 - Text should be selectable
 - Automaic scrolling can be turned on and off
 
+[![Automatically scrolling window](https://github.com/DataExplorerUser/dpg_resources/blob/main/autoscroll.gif)](https://github.com/DataExplorerUser/autoscroll/blob/main/autoscroll.py)
 
 *Note*
 
