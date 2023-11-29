@@ -5,7 +5,7 @@ Automatically scrolling logger window for Dear PyGui that meets the following re
 - Ability to automatically scroll to newest entry
 - Ability to show and hide the log with a toggle button
 - Text should be selectable
-- Automaic scrolling can be turned on and off
+- Automatic scrolling can be turned on and off
 
 [![Automatically scrolling window](https://github.com/DataExplorerUser/dpg_resources/blob/main/autoscroll.gif)](https://github.com/DataExplorerUser/autoscroll/blob/main/autoscroll.py)
 
