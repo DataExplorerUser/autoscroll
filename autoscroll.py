@@ -1,3 +1,4 @@
+# original code by v-ein
 import textwrap
 import dearpygui.dearpygui as dpg
 import random
@@ -17,14 +18,11 @@ with dpg.window(label="Log autoscroll", width=700, height=400) as wnd:
         dpg.set_value("log_field", text)
         dpg.set_item_height("log_field", dpg.get_text_size(text)[1] + (2 * FRAME_PADDING))
 
-    def toggle_auto_scroll():
-        if dpg.get_item_configuration("log_field").get("tracked") == True:
-            dpg.configure_item("log_field", tracked=False)
-        else:
-            dpg.configure_item("log_field", tracked=True)
+    def toggle_auto_scroll(checkbox, checked):
+        dpg.configure_item("log_field", tracked=checked)
 
     dpg.add_button(label="Load", callback=on_load_log)
-    dpg.add_checkbox(label="Toggle autoscroll", callback=toggle_auto_scroll)
+    dpg.add_checkbox(label="Autoscroll", default_value=True, callback=toggle_auto_scroll)
 
     with dpg.child_window():
         # autoscroll is turned on by default as tracked = True
