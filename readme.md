@@ -1,4 +1,4 @@
-Automatically scrolling logger window for Dear PyGui that meets the following requirements. 
+[Automatically scrolling logger window](https://github.com/DataExplorerUser/autoscroll/blob/main/autoscroll.py) for Dear PyGui that meets the following requirements. 
 
 - Regularly update
 - Scrollable
